@@ -22,7 +22,11 @@ import { dataSourcesInfo } from "../../.power/schemas/appschemas/dataSourcesInfo
 
 async function hostContext(): Promise<IContext | null> {
   try {
-    const ctx = await getContext();
+    // Standalone (plain `vite dev`, no Power host) `getContext()` can hang
+    // instead of rejecting — race it with a timeout so we fall back to demo
+    // data promptly rather than stalling on the loading screen.
+    const timeout = new Promise<null>((resolve) => setTimeout(() => resolve(null), 2500));
+    const ctx = await Promise.race([getContext(), timeout]);
     return ctx?.app?.appId ? ctx : null;
   } catch {
     return null;
