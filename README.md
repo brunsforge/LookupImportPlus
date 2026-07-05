@@ -105,7 +105,6 @@ importer searches only those.
 - `docs/ARCHITECTURE.md` — architecture, Code Apps constraints, transport decision, open risks.
 - `docs/SETUP.md` — local dev **and** trial onboarding (enable code apps, add data sources, push).
 - `docs/data-model.md` — `lip_*` Dataverse tables (phase 2 audit persistence).
-- `docs/ui-concept.html` — the agreed "Operational Violet" UI concept (open in a browser).
 
 ## Layout
 
@@ -122,6 +121,8 @@ src/ui/         Fluent shell + screens
 Issues and pull requests are welcome at
 [github.com/brunsforge/LookupImportPlus](https://github.com/brunsforge/LookupImportPlus).
 Before opening a PR, please run `npm test` and `npm run build` — both should pass clean.
+
+Questions or anything license-related: <oss@andreasbrunsmann.de>.
 
 ## License
 

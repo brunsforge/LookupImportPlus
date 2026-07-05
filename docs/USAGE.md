@@ -1,7 +1,6 @@
 # LookupImportPlus — usage walkthrough
 
-A screen-by-screen guide to the tool and its operating concepts. Written to be
-usable as source material for a blog post or onboarding another agent.
+A screen-by-screen guide to the tool and its operating concepts.
 
 ## The problem it solves
 

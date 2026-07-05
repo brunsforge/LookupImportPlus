@@ -1,14 +1,14 @@
 # LookupImportPlus — Architecture & Toolchain Constraints
 
-> Status: living document. Captures the analysis from project bootstrap
-> (handover steps 1–2) and the decisions that gate concrete implementation.
+> Status: living document. Captures the initial analysis and the decisions
+> that gate concrete implementation.
 
 ## 1. What we are building
 
 A Power Apps **Code App** (SPA, `pac code` / `@microsoft/power-apps`) that provides a
 modern React + Fluent UI experience for configurable Dataverse import/export
 with **robust, auditable lookup resolution** (no silent guessing on ambiguous
-lookups). See the handover for full product scope.
+lookups).
 
 ## 2. Verified environment (bootstrap)
 
@@ -42,7 +42,7 @@ generated service classes. Connections are added with
 
 ### What this means for "direct Dataverse Web API"
 
-The handover asks for a direct Dataverse Web API abstraction covering metadata,
+The design calls for a direct Dataverse Web API abstraction covering metadata,
 polymorphic lookups, navigation properties, entity set names, `$batch`, etc.
 
 **Key discovery (verified against `@microsoft/power-apps` v1.2.5 type defs):** the
@@ -102,7 +102,7 @@ Deferred to later milestones, behind the same interface, if needed:
 
 ## 5. Browser vs. server split (keep the door open)
 
-To preserve the future move to a server-side runner (handover requirement), we
+To preserve the future move to a server-side runner, we
 keep responsibilities explicit:
 
 | Concern | MVP location | Future |
