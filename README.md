@@ -1,5 +1,7 @@
 # LookupImportPlus
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-5B3CC4.svg)](./LICENSE)
+
 A Power Apps **Code App** (Vite + React + Fluent UI v9) for configurable
 Dataverse import/export whose differentiator is **robust, auditable lookup
 resolution** — it never silently guesses on ambiguous lookups; it escalates to a
@@ -24,6 +26,8 @@ conflict worklist and logs every decision.
 ## Quick start (offline)
 
 ```bash
+git clone https://github.com/brunsforge/LookupImportPlus.git
+cd LookupImportPlus
 npm install
 npm run dev     # http://localhost:3000 — real app, in-memory demo data
 ```
@@ -112,3 +116,14 @@ src/services/   MetadataService, LookupResolver, conditionCompiler, ImportRunner
 src/app/        container, client factory, React context, demo seed
 src/ui/         Fluent shell + screens
 ```
+
+## Contributing
+
+Issues and pull requests are welcome at
+[github.com/brunsforge/LookupImportPlus](https://github.com/brunsforge/LookupImportPlus).
+Before opening a PR, please run `npm test` and `npm run build` — both should pass clean.
+
+## License
+
+[MIT](./LICENSE) © [Andreas Brunsmann](https://github.com/brunsforge)
+

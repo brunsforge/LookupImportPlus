@@ -19,7 +19,7 @@ lookups). See the handover for full product scope.
 | Power Platform CLI (`pac`) | 2.5.1 | `pac code` is **Preview** |
 | .NET | 10.0.102 | available for future plug-in / Custom API |
 | git | 2.44 | repo not yet initialized |
-| Dataverse env | `https://orgf707a816.crm16.dynamics.com/` | active `pac auth` profile |
+| Dataverse env | `https://<yourorg>.crm.dynamics.com/` | active `pac auth` profile |
 
 Project directory started **empty** — greenfield.
 

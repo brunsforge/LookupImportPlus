@@ -4,6 +4,26 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Robust Dataverse import/export with controlled lookup resolution (Power Apps Code App)",
+  "author": "Andreas Brunsmann (https://github.com/brunsforge)",
+  "license": "MIT",
+  "homepage": "https://github.com/brunsforge/LookupImportPlus#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunsforge/LookupImportPlus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunsforge/LookupImportPlus/issues"
+  },
+  "keywords": [
+    "power-apps",
+    "code-app",
+    "dataverse",
+    "import",
+    "export",
+    "lookup",
+    "excel",
+    "fluent-ui"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

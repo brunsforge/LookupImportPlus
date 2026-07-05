@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "appId": "d61c3486-3fbe-4e6b-a9ae-e483d06ea00b",
+  "appId": "",
   "appDisplayName": "LookupImportPlus",
   "region": "prod",
-  "environmentId": "7d5c79d3-cea3-e452-8176-39c76714b740",
+  "environmentId": "",
   "description": " ",
   "buildPath": "./dist",
   "buildEntryPoint": "index.html",
