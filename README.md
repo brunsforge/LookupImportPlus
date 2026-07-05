@@ -7,6 +7,12 @@ Dataverse import/export whose differentiator is **robust, auditable lookup
 resolution** — it never silently guesses on ambiguous lookups; it escalates to a
 conflict worklist and logs every decision.
 
+## Blog write-up (illustrated)
+
+A screen-by-screen walkthrough with real screenshots and every matching scenario:
+**[No more guessing on Dataverse lookup imports](https://wolkenkunde.cloud/blog/lookupimportplus-no-more-guessing-on-dataverse-lookup-imports-en)** (English) ·
+[deutsche Fassung](https://wolkenkunde.cloud/blog/lookupimportplus-no-more-guessing-on-dataverse-lookup-imports).
+
 ## Status — **MVP** (deployed & validated against a live Dataverse trial)
 
 | Area | State |
