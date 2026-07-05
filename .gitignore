@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Build & test artifacts
+*.tsbuildinfo
+coverage
+
+# Power Platform: power.config.json, .power/schemas and src/generated are committed
+# (needed to build); no secrets are stored in them.

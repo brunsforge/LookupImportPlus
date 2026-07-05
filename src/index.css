@@ -1,0 +1,26 @@
+:root {
+  --lip-surface-2: #f3f2f5;
+  --lip-slate: #605e6b;
+  --lip-ready: #107c10;      --lip-ready-soft: #e5f2e5;
+  --lip-amber: #b95a00;      --lip-amber-soft: #fbeedd;
+  --lip-error: #b10e1e;      --lip-error-soft: #f9e7e7;
+  --lip-skip: #605e6b;       --lip-skip-soft: #eeedf0;
+  --lip-info: #0f6cbd;       --lip-info-soft: #eaf3fc;
+}
+:root[data-lip-dark="true"] {
+  --lip-surface-2: #2c2a35;
+  --lip-slate: #c8c5d0;
+  --lip-ready: #57b75a;      --lip-ready-soft: #17301a;
+  --lip-amber: #e0913e;      --lip-amber-soft: #33260f;
+  --lip-error: #e8726b;      --lip-error-soft: #3a1c1b;
+  --lip-skip: #c8c5d0;       --lip-skip-soft: #2c2a35;
+  --lip-info: #82b9ff;       --lip-info-soft: #16273a;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+body { overflow: hidden; }
+
+.lip-mono {
+  font-family: "Cascadia Code", "Cascadia Mono", Consolas, ui-monospace, monospace;
+  font-size: 0.86em;
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "appId": "d61c3486-3fbe-4e6b-a9ae-e483d06ea00b",
+  "appDisplayName": "LookupImportPlus",
+  "region": "prod",
+  "environmentId": "7d5c79d3-cea3-e452-8176-39c76714b740",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "accounts": {
+          "entitySetName": "accounts",
+          "logicalName": "account",
+          "isHidden": false
+        },
+        "contacts": {
+          "entitySetName": "contacts",
+          "logicalName": "contact",
+          "isHidden": false
+        },
+        "views": {
+          "entitySetName": "savedqueries",
+          "logicalName": "savedquery",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
